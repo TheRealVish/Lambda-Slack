@@ -1,0 +1,22 @@
+{
+  "name": "awslambda",
+  "version": "1.0.0",
+  "description": "lambda to post messages on to slack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealVish/awslambda.git"
+  },
+  "author": "Vish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRealVish/awslambda/issues"
+  },
+  "homepage": "https://github.com/TheRealVish/awslambda#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
