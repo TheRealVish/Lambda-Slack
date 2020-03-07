@@ -1,3 +1,4 @@
+'use strict'
 //lambda to post messages on to slack channel
 const https = require('https');
 
@@ -9,7 +10,7 @@ exports.handler = (event, context, callback) => {
   const options = {
     hostname: "hooks.slack.com",
     method: "POST",
-    path: "/services/TGEKBEPMM/BV1DR8U7J/RMeattqrMFh7PCt4WC00stBS",
+    path: "/services/xx/xx/xx",
   }
 
   const req = https.request(options,
@@ -25,7 +26,7 @@ console.log(payload)
 const options = {
   hostname: "hooks.slack.com",
   method: "POST",
-  path: "/services/TGEKBEPMM/BV1DR8U7J/RMeattqrMFh7PCt4WC00stBS"
+  path: "/services/xx/xx/xx"
 }
 const req = https.request(options, (res)=>{
   console.log('statusCode:',res.statusCode)
