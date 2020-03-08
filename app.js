@@ -1,10 +1,11 @@
 'use strict'
 //lambda to post messages on to slack channel
-const https = require('https');
+const https = require('https')
 exports.handler = (event, context, callback) => {
   const xpath = process.env.XPATH_VALUE
+  var messagex = event.Records[0].Sns.Message
   const payload = JSON.stringify({
-    text: `Message sent by ${event.name} :\n ${event.message}`,
+    text: `EVENT NOTIFICATION ---> ${messagex}`,
   })
   const options = {
     hostname: "hooks.slack.com",
