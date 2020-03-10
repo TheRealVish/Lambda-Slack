@@ -1,3 +1,5 @@
+:bookmark_tabs:
+``` 
 Objective
 
 +++ Gets triggered by AWS SNS
